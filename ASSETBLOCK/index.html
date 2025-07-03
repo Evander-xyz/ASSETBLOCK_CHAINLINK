@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Search & NFT Minting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Property Search & NFT Marketplace</h1>
+            <button id="connectWallet" class="wallet-btn">Connect MetaMask</button>
+        </header>
+
+        <div class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search by Property ID or Address..." class="search-input">
+                <button id="searchBtn" class="search-btn">Search</button>
+            </div>
+        </div>
+
+        <div class="wallet-info" id="walletInfo" style="display: none;">
+            <p>Connected: <span id="walletAddress"></span></p>
+        </div>
+
+        <div class="results-section">
+            <div id="propertyResults" class="property-grid"></div>
+        </div>
+
+        <div class="loading" id="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Loading properties...</p>
+        </div>
+    </div>
+    <footer><a href="main.html">HOME</a></footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

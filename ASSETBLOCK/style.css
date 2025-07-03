@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ body  {
+    background: rgb(31, 29, 29); 
+   /* color: rgb(252, 251, 251); */
+    font-family:/* 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif*/ Inter;
+    font-size:16px;
+    line-height: 1.6em;
+    margin: none; 
+ }
+ .container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+.container2{
+  width:75%;
+  margin: auto;
+	overflow: hidden;
+}
+ /* for then navigation section */
+ #header{
+  margin-bottom: rem;
+  background-color: black opacity;
+  background-size: cover;
+  opacity: 0.3;
+  padding-bottom: 1rem;
+
+  }
+
+ #logo {
+  position: absolute;
+  color: orange;
+
+  padding-top: 1.5rem;
+  display: inline-flex;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+}
+#navbar{
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+ #navbar ul{
+  padding: 0.13rem;
+  padding-left: 1rem;
+  list-style: none;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-left: 25rem;
+  border-radius:1.5rem;
+  background: #ffffff15 ;
+}
+#navbar li{
+  display: inline;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  }
+
+#navbar a{
+  
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 0.75rem;
+  padding-right: 1.5rem;
+  font-weight: 700;
+  z-index: 1;
+  padding-left: 0.5rem;
+ }
+
+#navbar a:hover {
+  color: orange;
+}
+.btn {
+  font-size: 0.7rem;
+  color: white;
+  font-weight:600 ;
+  border-radius: 1.5rem;
+  background: plum;
+  padding: 0.9rem;
+  padding-top: 0.3rem;
+  padding-bottom: o.3rem;
+  padding-left: 1rem;
+  margin-left: 15rem;
+  margin-top: 1.6rem;
+  border: none;
+}
+
+/* for showcase section */
+#showcas{
+  justify-content: center;
+  background-image: url('../images/estateshowcase.jpg');
+  height: 600px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#con {
+  margin-top: 15rem;
+  font-size: 1.7rem;
+}
+#butto{
+  font-size: 0.8rem;
+  color: white;
+  font-weight:600 ;
+  border-radius: 1.5rem;
+  background: plum;
+  width: 10rem;
+  padding: 20px;
+  padding-left: 15px;
+  border: none;
+}
+/*for section*/
+#stats{
+  display: flex ;
+  gap: 2rem;
+  margin-top: 7rem;
+}
+#stats h2{
+  margin-left: 2rem;
+  margin-top: 3.5rem;
+}
+#stats p{
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.columnd{
+  
+  width:33% ;
+  border-radius: 0.2rem;
+  border: 1px solid #1A1A1D;
+  background:linear-gradient(0deg, #181818 0%, #171718 100%), #0F0F10; ;
+  height: 25rem;
+  margin-bottom:rem;
+}
+
+
+/*search in dfashboard page*/
+h1 {
+    color: #333;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+/*for footer area*/
+footer{
+  background:linear-gradient(0deg, #181818 0%, #171718 100%), #0F0F10; 
+  margin-top: 5rem;
+}
+.footera{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 8rem;
+  padding-top: 4rem;
+}
+.footera p{
+  opacity: 0.6;
+  color: #FFF;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+.footerbtn{
+  font-size: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+  background: linear-gradient(90deg, #BE8543 -15.9%, #B3397F 37.37%, #4D29B3 91.8%);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 2.7rem;
+  padding-right: 2.7rem;
+  border: none;
+}
+#line{
+  margin-top: 1rem;
+  border-top: 1px solid #ddd; 
+}
+
+/*for footerb area*/
+.footerb{
+  display: inline-flex;
+  gap: 7rem;
+  margin-top: 2rem;
+
+}
+.footerb ul{
+  list-style: none;
+  padding-left: 4rem;
+  
+}
+.footerb li{
+  display: inline;
+ padding-left: 3rem ;
+ font-size: smaller;
+}
